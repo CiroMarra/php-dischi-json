@@ -13,13 +13,15 @@
 </head>
 <body class="my-bg">
     <div id="app">
-    <nav class="navbar">
-            <a class="navbar-brand" href="#">
-                <img src="img/Spotify_logo_without_text.svg.png" alt="Bootstrap" width="50" height="50">
-            </a>
-    </nav>
+    <header>
+        <nav class="navbar">
+                <a class="navbar-brand" href="#">
+                    <img src="img/Spotify_logo_without_text.svg.png" alt="Bootstrap" width="50" height="50">
+                </a>
+        </nav>
+    </header>    
+    <main>
         <div class="container">
-
             <div class="row row-cols-3 lg-3">
                 <div v-for="disk in disks">
                     <div class="card my-2" style="width: 19rem;">
@@ -33,9 +35,7 @@
                 </div>    
             </div>
         </div>
-    </div>
-
-    
+    </main> 
     <script src="js/script.js"></script>
 </body>
 </html>
